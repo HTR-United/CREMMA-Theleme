@@ -1,0 +1,46 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: "CREMMA Manuscrits m\xE9di\xE9vaux latins"
+url: https://github.com/HTR-United/CREMMA-Medieval-LAT
+project-name: CREMMA
+authors:
+- name: "Cl\xE9rice"
+  surname: Thibault
+  roles:
+  - project-manager
+  - quality-control
+  type: person
+- name: "Chagu\xE9"
+  surname: Alix
+  roles:
+  - project-manager
+  - quality-control
+  type: person
+description: 'Middle Ages'' manuscripts in Latin.
+
+  '
+language:
+- lat
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1000'
+  notAfter: '1450'
+hands:
+  count: 1-per-folder
+  precision: exact
+license:
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+format: Alto-XML
+volume:
+- count: 0
+  metric: lines
+- count: 0
+  metric: files
+- count: 0
+  metric: regions
+- count: 0
+  metric: characters
+transcription-guidelines: "Abr\xE9viations conserv\xE9es."
+production-software: "eScriptorium + Kraken"
